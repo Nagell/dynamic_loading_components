@@ -5,35 +5,17 @@
                 {{ $t('home.title') }}
             </h1>
             <hr class="w-10 mt-4 mb-2">
-            <h2 class="text-2xl text-center">
-                {{ $t('home.subtitle') }}
-            </h2>
-            <div class="mt-6 w-1/2 max-w-[50rem]">
-                <PostList />
+
+            <div class="mt-6 w-full md:w-1/2 max-w-[50rem] flex flex-col gap-8">
+                <DomainSwitcher />
+                <DomainTestParent />
             </div>
-            <ButtonItem @click="fetchMorePosts">
-                {{ $t('home.fetchMorePosts') }}
-            </ButtonItem>
-            <span v-if="isPostsLoading">
-                {{ $t('home.fetchingPosts') }}
-            </span>
         </div>
     </DefaultLayout>
 </template>
 
 <script setup lang="ts">
-    import { storeToRefs } from 'pinia'
-
-    import { ButtonItem } from '@/components/common'
-
-    import PostList from '@/components/posts/PostList.vue'
+    import DomainSwitcher from '@/components/domain/DomainSwitcher.vue'
+    import DomainTestParent from '@/components/domain/DomainTestParent.vue'
     import DefaultLayout from '@/layouts/DefaultLayout.vue'
-    import { usePostStore } from '@/stores/post.store'
-
-    const postStore = usePostStore()
-    const { isPostsLoading } = storeToRefs(postStore)
-
-    function fetchMorePosts() {
-        postStore.fetchPosts()
-    }
 </script>

@@ -8,6 +8,8 @@
     "home.subtitle": "All is working fine!",
     "home.fetchingPosts": "Fetching posts",
     "home.fetchMorePosts": "Fetch more posts",
+    "home.noPosts": "No posts",
+    "home.noPosts.description": "just this call to action",
     "test.linebreak": "Text\nwith\na\nbreak",
     "test.placeholder": "Hello, {name}",
     "test.plural": "nothing|{count} apple|{count} apples"
