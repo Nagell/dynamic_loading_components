@@ -1,5 +1,5 @@
 {
-    "name": "app_name",
+    "name": "dynamic_loading_components",
     "version": "1.0.0",
     "private": true,
     "type": "module",

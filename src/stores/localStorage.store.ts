@@ -19,7 +19,7 @@ const defaultState = {
 
 export const useLocalStorageStore = defineStore('localStorage', () => {
     const storage = <RemovableRef<typeof defaultState>>useStorage(
-        'app_1',
+        'dynamic_loading_components',
         defaultState,
         localStorage,
         { mergeDefaults: true }

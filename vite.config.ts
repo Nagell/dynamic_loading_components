@@ -6,7 +6,7 @@ import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
 import { getApplicationConfiguration, getProxyConfiguration } from './config/vite'
 
 export default getApplicationConfiguration({
-    cacheDir: '/node_modules/.vite/app_name',
+    cacheDir: '/node_modules/.vite/dynamic_loading_components',
 
     server: {
         port: 5005,
@@ -27,7 +27,7 @@ export default getApplicationConfiguration({
     },
 
     build: {
-        outDir: '/dist/app_name',
+        outDir: '/dist/dynamic_loading_components',
         // solving vite based storybook issue
         // https://github.com/tailwindlabs/tailwindcss/discussions/3646#discussioncomment-825556
         // sample: https://lobotuerto.com/notes/import-tailwind-config-in-vite

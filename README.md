@@ -38,9 +38,6 @@ npm install -g yarn
 yarn run init
 ```
 
-> [!NOTE]
-> Remember to scan the project for `app_name` and replace them with your own values.
-
 <br>
 
 ## Commands
