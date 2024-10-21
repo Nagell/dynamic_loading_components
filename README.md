@@ -1,6 +1,6 @@
-# Vue Template
+# Dynamic loading of Vue components
 
-- [Vue Template](#vue-template)
+- [Dynamic loading of Vue components](#dynamic-loading-of-vue-components)
   - [Description](#description)
     - [Goal](#goal)
     - [But what about `v-if`?](#but-what-about-v-if)
