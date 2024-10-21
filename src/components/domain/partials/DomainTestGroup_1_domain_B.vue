@@ -2,6 +2,9 @@
     <div class="flex flex-col gap-4">
         <div class="flex flex-col">
             <h4 class="font-bold">
+                <span class="text-[red] text-2xl">
+                    B
+                </span>
                 DomainTestGroup_1_domain_B
             </h4>
             <p class="font-semibold pt-4">

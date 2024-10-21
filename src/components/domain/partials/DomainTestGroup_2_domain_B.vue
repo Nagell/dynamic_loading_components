@@ -1,6 +1,9 @@
 <template>
     <div class="flex flex-col gap-4">
         <h4 class="font-bold">
+            <span class="text-[red] text-2xl">
+                B
+            </span>
             DomainTestGroup_2_domain_B
         </h4>
         <div class="w-full h-40 flex flex-col items-center justify-center bg-gradient-to-br from-primary-400 to-primary-600 text-center">
