@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/out-tsc",
+        "allowJs": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "verbatimModuleSyntax": true,
+        "noErrorTruncation": true,
+        "types": [
+            "vite/client",
+            "node"
+        ],
+        "paths": {
+            "*": [
+                "src/types/*"
+            ],
+            "@/*": [
+                "src/*"
+            ],
+            "tailwind-config": [
+                "tailwind.config.ts"
+            ],
+        },
+    },
+    "files": [],
+    "exclude": [
+        "src/**/*.spec.ts",
+        "src/**/*.test.ts",
+        "src/**/*.spec.vue",
+        "src/**/*.test.vue"
+    ],
+    "include": [
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "src/**/*.ts",
+        "src/**/*.vue"
+    ],
+    "extends": "./tsconfig.base.json"
+}
