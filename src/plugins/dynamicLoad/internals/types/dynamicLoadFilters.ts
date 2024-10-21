@@ -53,10 +53,10 @@ type FilterComponentsProps<G extends DynamicLoadGroups> = {
  *  Pick Props from a component by Scope
  *  Output: Props
 */
-type Domain1ComponentProps<G extends DynamicLoadGroups>
+type DomainAComponentProps<G extends DynamicLoadGroups>
     = FilterComponentsProps<G> extends { DOMAIN_A: unknown }
         ? FilterComponentsProps<G>['DOMAIN_A'] : object
-type Domain2ComponentProps<G extends DynamicLoadGroups>
+type DomainBComponentProps<G extends DynamicLoadGroups>
     = FilterComponentsProps<G> extends { DOMAIN_B: unknown }
         ? FilterComponentsProps<G>['DOMAIN_B'] : object
 // 🟠 add more domains here if needed
@@ -68,8 +68,8 @@ type Domain2ComponentProps<G extends DynamicLoadGroups>
  *  Output: Props
  */
 export type CombinedComponentsProps<G extends DynamicLoadGroups> = Prettify<
-    Domain1ComponentProps<G>
-    & Domain2ComponentProps<G>
+    DomainAComponentProps<G>
+    & DomainBComponentProps<G>
 // 🟠 add them also here to the combined type
 >
 // type TEST_FILTER_COMPONENTS_PROPS_ALL = CombinedComponentsProps<'DomainTestGroup_1'>
