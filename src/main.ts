@@ -1,5 +1,6 @@
 ﻿import { createApp } from 'vue'
 
+import dynamicLoadPlugin from '@/plugins/dynamicLoad/internals/index'
 import { i18nPlugin } from '@/plugins/i18n'
 import { useI18nStore } from '@/stores/i18n.store'
 import { pinia } from '@/stores/pinia'
@@ -13,6 +14,8 @@ const app = createApp(App)
 
 app.use(pinia)
 app.use(router)
+
+app.use(dynamicLoadPlugin)
 
 const i18nStore = useI18nStore()
 i18nStore.initializeI18n().then(() => {

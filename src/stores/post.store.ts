@@ -8,7 +8,7 @@ export const usePostStore = defineStore('post', () => {
     const posts = ref<Post[]>([])
     const isPostsLoading = ref<boolean>(false)
 
-    const POST_PULL_LIMIT = 5
+    const POST_PULL_LIMIT = 2
 
     function fetchPosts(page?: number, limit: number = POST_PULL_LIMIT) {
         // If fetching posts is ongoing, don't fetch anymore
