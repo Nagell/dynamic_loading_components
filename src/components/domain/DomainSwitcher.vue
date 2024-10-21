@@ -17,12 +17,19 @@
 </template>
 
 <script setup lang="ts">
+    import { onBeforeMount } from 'vue'
+
     import { ButtonItem } from '@/components/common'
     import { useLocalStorageStore } from '@/plugins/dynamicLoad/internals/stores/localStorageDomain.store'
 
     import type { DomainValue } from '@/plugins/dynamicLoad/internals/types/localStorage'
 
     const localStorageStore = useLocalStorageStore()
+
+    onBeforeMount(() => {
+        if (!localStorageStore.getDomain)
+            localStorageStore.setDomain('domain_A')
+    })
 
     const changeDomain = (domain: DomainValue) => {
         localStorageStore.setDomain(domain)
