@@ -25,6 +25,9 @@
 
 <br>
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)  
+Remember to install suggested extensions in StackBlitz.
+
 ## Description
 
 Sample project for dynamic loading of Vue components using:
@@ -35,9 +38,6 @@ Sample project for dynamic loading of Vue components using:
 - `vite-plugin-chunk-split` - for chunk splitting
 
 ![types and intellisense are working, yeah!](./docs/assets/intellisense.png)
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)  
-Remember to install suggested extensions in StackBlitz.
 
 <br>
 
