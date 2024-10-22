@@ -26,7 +26,8 @@
 <br>
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)  
-Remember to install suggested extensions in StackBlitz.
+Remember to install suggested extensions in StackBlitz, after the installation of the project.  
+If this approach doesn't work for you, you can always just clone the project and run it locally.
 
 ## Description
 
