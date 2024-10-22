@@ -71,9 +71,9 @@ There are such cases in which your app has to be very flexible in showing many d
 - depending on the data fetched from the server
 - and so on...
 
-Normally you would have to duplicate a lot of code or use a lot of `v-if` directives.  
+Normally you would have to duplicate a lot of code or use a ton of `v-if` directives.  
 
-So I thought, why not make it more dynamic and flexible?  
+**So why not make it more dynamic and organized at the same time, by setting all in one place and changing it globally?**  
 
 <br>
 
@@ -89,7 +89,7 @@ Ideally such wrapper component would have just one additional property which wou
 one of the components would be loaded and the rest of the properties would be expected by the wrapper based  
 on an amalgamation of the types of all the components that could be loaded.
 
-Due to limitations of Vue 3 `generic components`, it's not possible. Still it's possible to make it with two properties:
+Due to limitations of Vue 3 `generic components`, it not an option, but it's still possible to make it with two properties:
 
 - `group-name` - for the group
 - `internal-props` - for a reactive object with the rest of the properties
