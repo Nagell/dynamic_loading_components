@@ -36,9 +36,12 @@ Sample project for dynamic loading of Vue components using:
 
 ![types and intellisense are working, yeah!](./docs/assets/intellisense.png)
 
-This project is based on my [vue template](https://github.com/Nagell/vue_template). Feel free to use it as a base for your project.
-
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)
+
+<br>
+
+> [!NOTE]  
+> This project is based on my [vue template](https://github.com/Nagell/vue_template). Feel free to use it as a base for your project.
 
 <br>
 
