@@ -36,7 +36,8 @@ Sample project for dynamic loading of Vue components using:
 
 ![types and intellisense are working, yeah!](./docs/assets/intellisense.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/dynamic_loading_components?file=src%2Fcomponents%2Fdomain%2FDomainTestParent.vue)  
+Remember to install suggested extensions in StackBlitz.
 
 <br>
 
