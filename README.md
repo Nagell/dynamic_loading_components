@@ -34,7 +34,7 @@ If this approach doesn't work for you, you can always just clone the project and
 Sample project for dynamic loading of Vue components using:
 
 - `typescript` - yes, ambitious goal but finally types and intellisense are working!
-- `generic components` -  [more on this]([./docs/DEVELOPMENT.md](https://vuejs.org/api/sfc-script-setup.html#generics))
+- `generic components` -  [more on this here](https://vuejs.org/api/sfc-script-setup.html#generics)
 - `defineAsyncComponent` - for dynamic loading of components
 - `vite-plugin-chunk-split` - for chunk splitting
 
