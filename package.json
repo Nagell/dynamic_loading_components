@@ -18,7 +18,7 @@
         "prepare": "husky"
     },
     "stackblitz": {
-        "startCommand": "yarn serve"
+        "startCommand": "npm i && yarn serve"
     },
     "dependencies": {
         "@tailwindcss/container-queries": "^0.1.1",
